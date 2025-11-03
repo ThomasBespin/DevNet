@@ -1,0 +1,15 @@
+# Launched by NetworkManager's dispatcher.
+# Requires network interface to be up.
+# This file is actually "disabled", in that
+# systemd does not try to launch it on startup.
+[Unit]
+Description=Launch Mattermost after Docker
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStartPre=-docker network rm docker_toDevNet
+ExecStart=docker compose -f /home/waffles/mattermost/docker-compose.yml -f /home/waffles/mattermost/docker-compose.nginx.yml up -d
+ExecStop=docker compose -f /home/waffles/mattermost/docker-compose.yml -f /home/waffles/mattermost/docker-compose.nginx.yml down
+RemainAfterExit=yes
