@@ -84,7 +84,7 @@ _I'll document how to build a pair programming station in another project, but k
 - At least one keyboard
   - My office had plenty of these around.
 - At least one [mouse†](https://www.amazon.com/dp/B086MFKYZB)
-  - The ability to switch from smooth and fast scrolling to line-by-line scrolling is second nature to me at this point. Had this model since at least 2019 and still love it.
+  - The ability to switch from smooth and fast scrolling to line-by-line scrolling is second nature to me at this point. Had this model since 2020 and still love it.
 - At least one monitor
   - Again, my office had plenty of these.
 - At least one [KVM switch†](https://www.amazon.com/dp/B0BLH7MBWM) to go from your org's standard-configured machine and network to your DevNet machine and network, and vice versa. (Note the KVM switch itself does not actually touch either Ethernet cable.)
